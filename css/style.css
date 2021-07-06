@@ -7,7 +7,7 @@
   top : 0;
   width: 30px;
   height: 30px;
-  margin: 30px;
+  margin: 10px;
   position: fixed;
   z-index: 1000;
   cursor: pointer;
@@ -35,8 +35,8 @@
 .side-bar {
   z-index: 1000;
   position: fixed;
-  top : 60px;
-  left: 38px;
+  top : 40px;
+  left: 18px;
   width: 140px;
   height: 200px;
   background-color: rgba(255, 255, 255, 0.800);
