@@ -124,6 +124,10 @@ body {
 }
 .profile h1{font-size: 40px;padding: 20px;color: white;}
 .profile p{color: white;}
+#about img{
+  width: 400px;
+  height: 400px;
+}
 
 #gallery{
   width: 100%;
