@@ -120,7 +120,7 @@ body {
 .profile h1{font-size: 40px;padding: 20px;color: white;text-align: center;}
 .profile p{color: white;text-align: center;}
 #about img{
-  max-width: 60vh;
+  max-width: -30vh;
   height: auto;
 }
 
