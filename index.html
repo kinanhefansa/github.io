@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Codystar|Covered+By+Your+Grace|Dawning+of+a+New+Day|Montserrat|Playfair+Display|Prata|Roboto&display=swap|Padauk=swap" rel="stylesheet"> 
+    <title>K's</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- HEADER -->
+<header>
+  <nav id="nav-menu">
+      <div class="toggle-menu" onclick="toggle()"></div>
+      <div class="toggle-menu" onclick="toggle(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div> 
+      <side class="side-bar">
+          <ul>
+              <li><a href="#home"><strong>HOME</strong></a></li>
+              <li><a href="#about"><strong>ABOUT</strong></a></li>
+              <li><a href="#gallery"><strong>GALLERY</strong></a></li>
+          </ul>
+      </side>
+  </nav>
+</header>
+<!-- INDEX OR HOME -->
+<body onload="logo()" onpageshow="quote()">
+  <section id="home">
+      <div class="landing" >
+          <!-- <h1 class="title">NAMA</h1> -->
+          <h1 id="nama"></h1>
+          <h2>WELCOME TO MY PERSONAL PAGE</h2>
+          <p id="slogan"></p>
+      </div>
+  </section>
+  
+  <section id="about">
+    <div class="profile">
+          <h1>ABOUT</h1>
+          <img src="https://media.giphy.com/media/Pj0D6lpm86ET2tqjKL/giphy.gif">
+          <p><b> PLB | INA</b></p>
+          </div>
+  </section>
+
+  <section id="gallery">
+    <h1>GALLERY</h1>
+    <div class="mySlides">
+      <img  src="//im.vsco.co/aws-us-west-2/990762/870654/5b37bdfb4679d12440467100/vsco5b37be15487a3.jpg?w=275&dpr=1"/>
+    </div>
+    <div class="mySlides">
+        <img  src="//im.vsco.co/aws-us-west-2/990762/870654/5b50e09f8f15cb1a44533dcc/vsco5b50e0a8163fa.jpg?w=275&dpr=1"/>
+    </div>
+    <div class="mySlides">
+        <img  src="//im.vsco.co/aws-us-west-2/990762/870654/5d20208f933d7d67522297a2/vsco5d2020946fe45.jpg?w=275&dpr=1"/>
+    </div>
+    <div class="mySlides">
+        <img  src="//im.vsco.co/aws-us-west-2/990762/870654/5f10aff63bc286575b000002/vsco5f10affabca95.jpg?w=275&dpr=1"/>
+    </div>
+    <div class="mySlides">
+      <img  src="//im.vsco.co/aws-us-west-2/990762/870654/5e74d4374cd9ed1fd0000007/vsco5e74d44230762.jpg?w=275&dpr=1"/>
+  </div>
+
+    
+      <a class="prev" onclick='plusSlides(-1)'>&#10094;
+      </a>
+      <a class="next" onclick='plusSlides(1)'>&#10095;
+      </a>
+      
+    <div style='text-align: center;'>
+      <span class="dot" onclick='currentSlide(1)'></span>
+      <span class="dot" onclick='currentSlide(2)'></span>
+      <span class="dot" onclick='currentSlide(3)'></span>
+      <span class="dot" onclick='currentSlide(4)'></span>
+      <span class="dot" onclick='currentSlide(5)'></span>
+    </div>
+
+  </section>
+
+
+</body>
+<!-- FOOTER -->
+<footer>
+  <div class="quote">
+      <h2 class="title"></h2>
+      <p>this page is under construction</p>  
+   </div>
+</footer>
+<section class="copyright">
+      <p>Copyright &copy 2021</p>
+</section>
+<script src="js/script.js"></script>
+</html>
